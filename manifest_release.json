@@ -1,0 +1,77 @@
+[
+  {
+    "path": "QPU_ACTIVATION_CHECKLIST.txt",
+    "size": 946,
+    "sha512": "28ad3b5035b6cbc735cfd80d10397c6563120f15c0310392f4461f3317f3848b0829c30671c02a9f7fc119f2a335b986c448205eeaf0cdae2c72f638db0bbef1"
+  },
+  {
+    "path": "README_INSTRUCTIONS.md",
+    "size": 1143,
+    "sha512": "bf24931f1846fe6d9835008da4f6a0eea9ab61ebc05dd84cbc206ad80655f3c94f3132136c8080633eca23c7625ded00d62c114d0683974b664412c6a4fd5f6b"
+  },
+  {
+    "path": "Spira_Global_Summary.json",
+    "size": 727,
+    "sha512": "0ff4dd5e17125a45ebb9c74a309099118e4600c60693012286d1c7b844c36c13f2614bdfa4d566cc3c3bd7722892071677822824a0c563c8b4767b553e53706e"
+  },
+  {
+    "path": "audit_logger.py",
+    "size": 556,
+    "sha512": "0016136f4fdbbd30f1f35dd7e9a8cb9a0b557576da0edd181ba483055d3c67106338ab0ff6d15971bc572bb76c8c160e73226f0d1bc0b274271376e3e9f14b5f"
+  },
+  {
+    "path": "manifest_release.json",
+    "size": 3134,
+    "sha512": "f73079fdb2cd40647f695d74a68e9e38704f0216b62b7cd948c273f5a42a2da4e1d69452b5a6153e1d836d7494b7d049c147fd48b992ce34293bfd5441c7ba14"
+  },
+  {
+    "path": "manifest_release.json.sig",
+    "size": 119,
+    "sha512": "34972594cd4a1573f4b9ddefa7d50dfcfb3ba16abf650d7c5b9b966fe29f17c57b6d46771ab26a4be2756b51ea94c658228b8b577ae42b1ae41239db94d2606d"
+  },
+  {
+    "path": "qpu_integration_manifest.json",
+    "size": 1009,
+    "sha512": "64b2779834e29ad65f54c88d727e39a525d59082f1429711091d17886463b76e3b082bc7206e9b7a84b83316ca8390cc919187fc9c50d99f8264b7b21aa34dea"
+  },
+  {
+    "path": "qpu_job_verifier.py",
+    "size": 1444,
+    "sha512": "9a3b4bcd323f2ebc2a4c79875351a3f4cabed6e8b95431d0f2e78d2e964c3972e824ab23bd42a3076da05db29756e154e532048c46d1b5cf2b445c01684f7e9e"
+  },
+  {
+    "path": "qpu_report.json",
+    "size": 124,
+    "sha512": "e2b7b02c694a7823151b34f7cd595a6540a13594e3ef24a18e0230c762f239f15aceec95aa5ebdfcae4cfaf85f490b7fbad71cfedc9700fbc721997359c7b7df"
+  },
+  {
+    "path": "registry_hash_index.json",
+    "size": 1148,
+    "sha512": "792f2d313b5c9d3b7ceb2cfb474748f4e8aabd00592a5b513eec0ce98f364ea6c5d344475da6edfe1a493eb646c57e5fec9b5183eac2646c337e7f07b7a23bcb"
+  },
+  {
+    "path": "requirements.txt",
+    "size": 234,
+    "sha512": "a500ee8b09e6af7ff54b040a42d9fd9348a07447051ea59043e20d3282f50668d5fa116b8c1e2053e76291a9191821a3a5cf25db91bef490110038b4c11e7faf"
+  },
+  {
+    "path": "sim_report.json",
+    "size": 471,
+    "sha512": "6688004e6e5b8487f16ee48864f939fe9d5b45ea7dc48d4e7cfb41c758bda38d2c6ad0ece2234ea804f534c8cf141335defbd2a709a215a36dca344dd9150ed0"
+  },
+  {
+    "path": "sim_report_clean.json",
+    "size": 471,
+    "sha512": "6688004e6e5b8487f16ee48864f939fe9d5b45ea7dc48d4e7cfb41c758bda38d2c6ad0ece2234ea804f534c8cf141335defbd2a709a215a36dca344dd9150ed0"
+  },
+  {
+    "path": "simulate_q_test.py",
+    "size": 1795,
+    "sha512": "c19a7706d1445677ab15c5712af4352b5409147d55be6edf86814f6871aa4b62b844e3cbe98be3eedf1099d7280559878f530d34698ecfd92cfaa4f20111f0a4"
+  },
+  {
+    "path": "spira_integrity_verifier.py",
+    "size": 3712,
+    "sha512": "8608fa24e0309f54f287ddf5e1f851ec1f744ab8cd349a828992de03473192c65bbcd65f2084aef2585240996b1cc9c79b79fe76084132b3aa4be631b8be73e6"
+  }
+]

@@ -1,0 +1,13 @@
+──────────────────────────────────────────────
+Λ-Spira QPU Framework — Release Ledger Entry
+──────────────────────────────────────────────
+Build ID       : Spira_QPU_Package_Ω_20251019
+Release Type   : Verified QPU Simulation Build (Ω)
+Timestamp UTC  : 2025-10-18T17:26:14Z
+SHA512 (ZIP)   : 05e15634cf90b97b9e842cb8b74fd143eae0cd40b679476c30de354ab0d3cd2dd905a6ac602b5d038d5fa3900cbb500fd6a8c5e54fcfcf733a1880ab67c988f0
+Signature Key  : 598C351026F03CE14446CCEE3FFA8A5CA37D17D2
+Verification   : PASSED (GPG + Registry Integrity)
+Integrity Lock : Active (a-w, uchg)
+Operator       : Sheka Hamdani Saputra
+Framework Node : Λ-Spira_Main (Local)
+──────────────────────────────────────────────
