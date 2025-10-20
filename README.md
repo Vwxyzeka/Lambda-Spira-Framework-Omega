@@ -33,18 +33,32 @@ Each computation becomes a timestamped and signed fact — a measurable unit of 
 
 ### System Overview
 
-Quantum / Classical Execution
-↓
-SHA-512 Hash Generation
-↓
-GPG Digital Signature
-↓
-UTC Timestamp Anchor
-↓
-Ledger Commit → Immutable Lock
-
+Quantum / Classical Execution  
+↓  
+SHA-512 Hash Generation  
+↓  
+GPG Digital Signature  
+↓  
+UTC Timestamp Anchor  
+↓  
+Ledger Commit → Immutable Lock  
 
 Each artifact (JSON output, hash, signature, ledger entry) can be independently verified to mathematically prove authenticity, origin, and temporal consistency.
+
+---
+
+### Λ-Spira Superlab Architecture (Ω Edition)
+
+![Λ-Spira Superlab Framework Diagram](./docs/Λ-Spira_Superlab_Framework_Ω_Diagram.png)
+
+**Diagram Description:**
+- **Active Layer:** orchestrates runtime modules (`api`, `relay`, `dashboard`)  
+- **Mode Layer (1–10):** experimental quantum/classical states (`ΔΤ`, `ΦΣ`, `ΛΩ`, `ΩΞ∞`, `Ωτ`, etc.)  
+- **Meta-Mode (ΣΩ, ΛΣ∞):** integrity supervisors that appear post-verification  
+- **Registry / Ledger Core:** cryptographic root of proof with immutable macOS locks  
+- **Archives:** historical manifests and signed whitepapers  
+- **Quantum Environment:** `spira_qenv` containing verified QPU execution context  
+- **Public Release:** frozen, GPG-signed artifacts under tag `v1.0-Ω`
 
 ---
 
@@ -76,7 +90,8 @@ All artifacts are stored under append-only policy and cryptographically cross-si
 ---
 
 ### License & Contact
-© 2025 Sheka Hamdani Saputra · All rights reserved.  
-For research or collaboration inquiries, contact via GitHub or Twitter (@ShekaHamdani).
 
----
+© 2025 Sheka Hamdani Saputra · All rights reserved.  
+
+Λ-Spira is currently open for research partnerships, institutional licensing, or strategic collaboration inquiries.  
+Contact via GitHub or Twitter [@ShekaHamdani](https://twitter.com/ShekaHamdani).
