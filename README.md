@@ -1,10 +1,16 @@
 <div align="center">
 
-# 🜂 Λ-Spira Framework (Ω Edition)
-### *A Cryptographic Provenance Standard for Verifiable Computation*  
-#### The Standard of Computational Truth  
+> *Not simulated. Not theoretical. Verified existence through computation itself.*  
+> **Veritas Computata — The Computed Truth.**
 
 <br>
+
+# 🜂 Λ-Spira Framework (Ω Edition)
+### *A Cryptographic Provenance Standard for Verifiable Computation*
+#### The Standard of Computational Truth
+
+<br>
+</div>
 
 [![status](https://img.shields.io/badge/status-verified-success?style=for-the-badge&labelColor=202020)]()  
 [![license](https://img.shields.io/badge/license-Λ--Spira--Research--and--Verification--License--Ω--2025-lightgrey?style=for-the-badge&labelColor=202020)](./LICENSE)  
