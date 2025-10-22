@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Λ-Spira Framework (Ω Edition)"
+authors:
+  - family-names: "Saputra"
+    given-names: "Sheka Hamdani"
+    orcid: "https://orcid.org/0009-0006-9768-1181"
+version: "Ω-1.0"
+date-released: "2025-10-22"
+doi: "10.5281/zenodo.17417655"
+url: "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega"
+license: "LicenseRef-Λ-Spira-Ω-2025"
+publisher: "Zenodo"

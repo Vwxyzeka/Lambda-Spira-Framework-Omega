@@ -1,0 +1,18 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Λ-Spira Framework (Ω Edition)",
+  "version": "Ω-1.0",
+  "identifier": "https://doi.org/10.5281/zenodo.17417655",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Sheka Hamdani",
+      "familyName": "Saputra",
+      "identifier": "https://orcid.org/0009-0006-9768-1181"
+    }
+  ],
+  "license": "LicenseRef-Λ-Spira-Ω-2025",
+  "datePublished": "2025-10-22",
+  "codeRepository": "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega"
+}
