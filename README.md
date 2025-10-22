@@ -50,8 +50,6 @@ Each artifact (JSON output, hash, signature, ledger entry) can be independently 
 
 ### Λ-Spira Superlab Architecture (Ω Edition)  
 
-![Λ-Spira Superlab Framework Diagram](./docs/Λ-Spira_Superlab_Framework_Ω_Diagram.png)
-
 **Diagram Description**  
 - **Active Layer** — orchestrates runtime modules (`api`, `relay`, `dashboard`)  
 - **Mode Layer (1–10)** — experimental quantum/classical states (`ΔΤ`, `ΦΣ`, `ΛΩ`, `ΩΞ∞`, `Ωτ`, etc.)  
