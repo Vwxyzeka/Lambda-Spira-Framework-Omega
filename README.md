@@ -1,15 +1,12 @@
+> *Not simulated. Not theoretical. Verified existence through computation itself.*  
+> *Veritas Computata — The Computed Truth.*
+
 <div align="center">
 
-> *Not simulated. Not theoretical. Verified existence through computation itself.*  
-> **Veritas Computata — The Computed Truth.**
+# 🜂 Λ-Spira Framework (Ω Edition)  
+### A Cryptographic Provenance Standard for Verifiable Computation  
+#### *The Standard of Computational Truth*  
 
-<br>
-
-# 🜂 Λ-Spira Framework (Ω Edition)
-### *A Cryptographic Provenance Standard for Verifiable Computation*
-#### The Standard of Computational Truth
-
-<br>
 </div>
 
 [![status](https://img.shields.io/badge/status-verified-success?style=for-the-badge&labelColor=202020)]()  
