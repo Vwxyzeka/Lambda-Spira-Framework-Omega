@@ -1,0 +1,98 @@
+Λ-Spira Research and Verification License (Ω-2025)
+Version Ω-2025, 2025-10-19
+Copyright © 2025 Sheka Hamdani Saputra
+All rights reserved.
+
+==================================================================
+PREAMBLE
+==================================================================
+The Λ-Spira Framework (Ω Edition) is an independent research system 
+developed to establish verifiable computational provenance, quantum–
+classical integrity, and cryptographic truth verification standards.
+
+This license is designed to preserve scientific reproducibility, 
+academic citation accuracy, and intellectual property integrity for 
+all verified Λ-Spira Framework components and associated publications.
+
+==================================================================
+1. GRANT OF PERMISSION
+==================================================================
+Permission is hereby granted, free of charge, to any individual or 
+organization obtaining a copy of this framework and associated 
+documentation files (the “Software”), to study, cite, reproduce, and 
+use for academic, verification, and non-commercial research purposes, 
+subject to the following conditions:
+
+(a) The above copyright notice and this permission notice shall be 
+    included in all copies or substantial portions of the Software.
+
+(b) The Software and any derived works must explicitly cite the 
+    following canonical reference:
+
+    Saputra, S. H. (2025). Λ-Spira Framework (Ω Edition):  
+    A Cryptographic Provenance Standard for Verifiable Computation.  
+    DOI: 10.5281/zenodo.17417655
+
+==================================================================
+2. RESTRICTIONS AND COMMERCIAL RIGHTS
+==================================================================
+(a) The Software may not be used for commercial redistribution, 
+    closed-source integration, or proprietary adaptation without 
+    written consent from the Author.
+
+(b) Any cryptographic or computational claims derived from this 
+    framework must include verifiable proofs and reference the 
+    Λ-Spira Attestation ID: ΛS-Ω-20251019-verified.
+
+(c) The Author retains full ownership of all commercial and derivative 
+    rights. Entities or individuals interested in collaboration, 
+    licensing, or acquisition of commercial rights may contact the 
+    Author directly through official communication channels.  
+    Any commercial redistribution or proprietary integration requires 
+    a separate written agreement.
+
+==================================================================
+3. INTEGRITY AND VERIFICATION
+==================================================================
+This framework operates under the verified-integrity principle:
+SHA-512 → GPG Digital Signature → UTC Timestamp → Immutable Ledger.
+
+Tampering, obfuscation, or modification of any released artifact 
+invalidates the cryptographic chain of custody and voids this license.
+
+==================================================================
+4. WARRANTY DISCLAIMER
+==================================================================
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING 
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+
+==================================================================
+5. GOVERNING JURISDICTION
+==================================================================
+This license is governed under international research and intellectual 
+property standards, including ISO/IEC 5230 (Open Source Compliance), 
+ISO/IEC 23026 (Software Engineering Documentation), and ISO/IEC 9796-3 
+(Digital Signature Schemes). It is protected under the WIPO framework 
+for scientific and digital intellectual property.
+
+==================================================================
+6. AUTHOR IDENTIFICATION
+==================================================================
+Author: Sheka Hamdani Saputra  
+Affiliation: Λ-Spira Superlab Framework (Independent Research Node)  
+Location: Indonesia  
+ORCID: 0009-0006-9768-1181  
+DOI: 10.5281/zenodo.17417655  
+Attestation ID: ΛS-Ω-20251019-verified  
+
+==================================================================
+7. LICENSE CLASSIFICATION
+==================================================================
+License Type: Research and Verification License  
+License Version: Ω-2025  
+SPDX Identifier: Λ-Spira-Ω-2025-RVL  
