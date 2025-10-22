@@ -1,14 +1,16 @@
 <div align="center">
 
-# 🜂 Λ-Spira Framework (Ω Edition)  
+# 🜂 Λ-Spira Framework (Ω Edition)
 ### *A Cryptographic Provenance Standard for Verifiable Computation*  
 #### The Standard of Computational Truth  
 
-[![Verified Build](https://img.shields.io/badge/status-verified-success?style=flat-square)]()  
-[![License](https://img.shields.io/badge/license-Λ--Spira--Research--and--Verification--License--Ω--2025-lightgrey?style=flat-square)](./LICENSE)  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17417655.svg)](https://doi.org/10.5281/zenodo.17417655)  
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--9768--1181-green?style=flat-square)](https://orcid.org/0009-0006-9768-1181)  
-[![Integrity](https://img.shields.io/badge/integrity-GPG%20signed-blue?style=flat-square)]()  
+<br>
+
+[![status](https://img.shields.io/badge/status-verified-success?style=for-the-badge&labelColor=202020)]()  
+[![license](https://img.shields.io/badge/license-Λ--Spira--Research--and--Verification--License--Ω--2025-lightgrey?style=for-the-badge&labelColor=202020)](./LICENSE)  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17417655-blue?style=for-the-badge&labelColor=202020)](https://doi.org/10.5281/zenodo.17417655)  
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--9768--1181-green?style=for-the-badge&labelColor=202020)](https://orcid.org/0009-0006-9768-1181)  
+[![Integrity](https://img.shields.io/badge/integrity-GPG%20signed-blue?style=for-the-badge&labelColor=202020)]()  
 
 </div>
 
