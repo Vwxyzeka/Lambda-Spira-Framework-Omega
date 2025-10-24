@@ -103,7 +103,7 @@ Version 1.3 extends the Λ-Spira methodology into **measurable, physically verif
 | **Execution Runtime (UTC)** | 2025-10-24T21:18:00Z |
 | **Verification Key** | EDDSA 598C351026F03CE14446CCEE3FFA8A5CA37D17D2 |
 | **Resulting Evidence Hash** | Embedded in `LambdaSpira_Manifest_v1.3_Final.json` |
-| **Evidence Chain** | `QPU Output → SHA-512 Digest → GPG Signature → UTC Ledger` |
+| **Evidence Chain** | `QPU Output → SHA-512 Digest → GPG Digital Signature → UTC Temporal Ledger → Immutable Archival Lock` |
 | **DOI Reference** | [10.5281/zenodo.17417655](https://doi.org/10.5281/zenodo.17417655) |
 | **ORCID ID** | [0009-0006-9768-1181](https://orcid.org/0009-0006-9768-1181)
 
