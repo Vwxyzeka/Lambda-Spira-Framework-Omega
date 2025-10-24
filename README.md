@@ -51,42 +51,40 @@ This principle defines Λ-Spira’s role as a framework for verifiable computati
 Λ-Spira implements a **verifiable computational provenance system** that unifies *cryptographic verification (v1.0)* and *quantum-physical attestation (v1.3)*.  
 The framework integrates **mathematical integrity proofs** with **physical QPU audit data**, ensuring reproducibility, authorship, and temporal immutability.
 
-### 3.1 Classical-Cryptographic Verification Chain (v1.0)
+### 3.1 Classical–Cryptographic Verification Chain (v1.0)
 
-Quantum / Classical Execution
-↓
-SHA-512 Hash Generation
-↓
-GPG Digital Signature
-↓
-UTC Timestamp Anchoring
-↓
-Ledger Commit → Immutable Lock
+Quantum / Classical Execution  
+↓  
+SHA-512 Hash Generation  
+↓  
+GPG Digital Signature  
+↓  
+UTC Timestamp Anchoring  
+↓  
+Ledger Commit → Immutable Lock  
 
-
-This classical layer guarantees deterministic computation and cryptographic immutability under fully offline execution.
+Each artifact (JSON output, hash, signature, and ledger entry) can be independently verified to mathematically prove authenticity, origin, and temporal consistency.
 
 ---
 
-### 3.2 Hybrid Quantum-Physical Verification Chain (v1.3)
+### 3.2 Hybrid Quantum–Physical Verification Chain (v1.3)
 
-Physical Backend (IBM Brisbane QPU – 127 Qubits, Superconducting)
-↓
-Experimental Execution (T₁, T₂ Ramsey, Randomized Benchmarking)
-↓
-Quantum Result Dataset (Fidelity, Coherence, Error Rates)
-↓
-SHA-512 Digest → Computational Proof Layer
-↓
-GPG Signature → Cryptographic Attestation Layer
-↓
-UTC Temporal Ledger → Immutable Time Anchor
-↓
-Quantum-Classical Integration Manifest → Λ-Spira Ledger Entry (Ω-20251024)
+Physical Backend (IBM Brisbane QPU — 127 Qubits, Superconducting)  
+↓  
+Experimental Execution (T₁, T₂ Ramsey, Randomized Benchmarking)  
+↓  
+Quantum Result Dataset (Fidelity, Coherence, Error Rates)  
+↓  
+SHA-512 Digest → Computational Proof Layer  
+↓  
+GPG Signature → Cryptographic Attestation Layer  
+↓  
+UTC Temporal Ledger → Immutable Time Anchor  
+↓  
+Quantum–Classical Integration Manifest → Λ–Spira Ledger Entry (Ω–20251024)  
 
-
-This hybrid chain extends the proof of computation into the physical domain:  
-each qubit-level operation is bound to a deterministic cryptographic digest, producing a **Quantum Provenance Chain** — a unified audit structure that verifies computation, authorship, and execution history across classical and quantum domains.
+This hybrid verification chain extends Λ–Spira into **measurable, physically verifiable computation**.  
+Each QPU operation produces a signed and timestamped result, linking experimental data with deterministic cryptographic proof — forming a **Quantum Provenance Chain** that validates computation across quantum and classical domains.
 
 ---
 
