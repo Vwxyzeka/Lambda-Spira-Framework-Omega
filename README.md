@@ -34,15 +34,15 @@ This principle defines Λ-Spira’s role as a framework for verifiable computati
 | Field | Specification |
 |:------|:---------------|
 | **Framework ID** | Λ-Spira Framework (Ω Edition) |
-| **Version** | Ω-1.0 → v1.1 → v1.3 Unified Quantum-Hybrid Verification |
-| **Verification** | GPG Signed (EdDSA 598C351026F03CE14446CCEE3FFA8A5CA37D17D2) |
-| **Attestation ID** | ΛS-Ω-20251024-verified |
+| **Version** | Ω-1.0 — Classical Deterministic Verification |
+| **Verification** | GPG Signed (EDDSA 598C351026F03CE14446CCEE3FFA8A5CA37D17D2) |
+| **Attestation ID** | ΛS-Ω-20251019-verified |
 | **Integrity Chain** | SHA-512 → GPG Signature → UTC Timestamp → Immutable Ledger |
-| **Environment** | Offline / Air-gapped macOS Hybrid Node (Quantum Linked) |
-| **Author** | Sheka Hamdani Saputra (Λ-Spira Superlab Framework, Indonesia) |
-| **Publication UTC** | 2025-10-24T21:18:00Z |
+| **Environment** | Offline / Air-gapped macOS Hybrid Node |
+| **Author** | Sheka Hamdani Saputra (Independent Researcher, Λ-Spira Superlab Framework, Indonesia) |
+| **Publication UTC** | 2025-10-19T23:45:00Z |
 | **DOI Reference** | [10.5281/zenodo.17417655](https://doi.org/10.5281/zenodo.17417655) |
-| **ORCID ID** | [0009-0006-9768-1181](https://orcid.org/0009-0006-9768-1181) |
+| **ORCID ID** | [0009-0006-9768-1181](https://orcid.org/0009-0006-9768-1181)
 
 ---
 
@@ -92,9 +92,11 @@ Each QPU operation produces a signed and timestamped result, linking experimenta
 
 Version 1.3 extends the Λ-Spira methodology into **measurable, physically verifiable computation** through live QPU auditing on IBM hardware.
 
-| Parameter | Recorded Specification |
+|Parameter   |Recorded Specification |
 |------------|------------------------|
+| **Framework ID** | Λ-Spira Framework (Ω Edition) |
 | **Quantum Backend** | IBM Quantum `ibm_brisbane` |
+| **Version** | v1.1 — Hybrid Cryptographic Integration |
 | **Architecture** | Falcon R10 Superconducting QPU |
 | **Qubit Count** | 127 physical qubits |
 | **Temperature Stability** | < 15 mK |
