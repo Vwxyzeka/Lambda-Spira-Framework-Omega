@@ -1,0 +1,69 @@
+{
+  "manifest_id": "Λ-Spira_Manifest_v1.3_Ω-Final",
+  "schema_version": "2025-10",
+  "title": "Λ-Spira Framework (Ω Edition) — Quantum Physical Verification Record",
+  "description": "Scientific provenance record generated during Λ-Spira QPU Baseline Audit v1.3 (Ω-Final) on IBM Brisbane (127-qubit superconducting backend). Fully verified under SHA-512, GPG EDDSA, and UTC timestamp chain. Provides immutable proof of computation, authorship, and execution integrity under Λ-Spira Global Standard for Verifiable Computation.",
+  "author": {
+    "name": "Sheka Hamdani Saputra",
+    "affiliation": "Λ-Spira Superlab Framework, Indonesia",
+    "orcid": "0009-0006-9768-1181",
+    "email": "shekahamdani@gmail.com"
+  },
+  "framework": {
+    "id": "Λ-Spira Framework (Ω Edition)",
+    "version": "v1.3 Ω-Final",
+    "previous_version": "v1.0-Ω",
+    "attestation_id": "ΛS-Ω-20251024-verified",
+    "environment": "Offline / Air-gapped macOS Hybrid Node (Quantum Linked)",
+    "execution_mode": "Hybrid Quantum Verification",
+    "runtime_environment": {
+      "python": "3.10.x",
+      "qiskit": "2.2.2",
+      "qiskit_ibm_runtime": "0.43.0",
+      "qiskit_experiments": "0.12.0",
+      "qiskit_aer": "0.17.2"
+    }
+  },
+  "qpu_execution": {
+    "backend": "ibm_brisbane",
+    "provider": "QiskitRuntimeService",
+    "n_qubits": 127,
+    "type": "Superconducting Quantum Processor",
+    "region": "us-east",
+    "execution_timestamp_utc": "2025-10-23T16:30:12Z"
+  },
+  "audit_chain": {
+    "report_file": "audit_evidence/LambdaSpira_QPU_Audit_Report_v1.json",
+    "report_sha512": "4d2c331252b7372bba97e1e7c6f1be7cfe96be9d525d66d867390ba1ccae71eb11a2aa4cedb8a2643290182ebc23829fbc95dce55d2cb60c7d796f9484d3a001",
+    "ledger_file": "Λ-Spira_Ledger_Entry_Ω_20251024.txt",
+    "ledger_signature": "Λ-Spira_Ledger_Entry_Ω_20251024.txt.sig",
+    "gpg_key_id": "598C351026F03CE14446CCEE3FFA8A5CA37D17D2",
+    "hash_algorithm": "SHA-512",
+    "signature_algorithm": "EdDSA (Curve25519)",
+    "timestamp_authority": "UTC Internal System Clock (NTP-synced)",
+    "integrity_chain": [
+      "SHA-512 → GPG Signature → UTC Timestamp → Immutable Ledger → Git Tag (v1.3-Ω-FINAL)"
+    ]
+  },
+  "provenance": {
+    "doi": "10.5281/zenodo.17417655",
+    "git_repository": "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega",
+    "git_tag": "v1.3-Ω-FINAL",
+    "license": "Λ-Spira Research and Verification License (Ω-2025)",
+    "verification_status": "Quantum-verified, cryptographically sealed, immutable"
+  },
+  "verification_summary": {
+    "authorship_verified": true,
+    "temporal_consistency_verified": true,
+    "cryptographic_integrity_verified": true,
+    "quantum_execution_verified": true,
+    "environment_reproducible": true
+  },
+  "generated_utc": "2025-10-24T21:45:00Z",
+  "digital_attestation": {
+    "gpg_fingerprint": "598C351026F03CE14446CCEE3FFA8A5CA37D17D2",
+    "verification_hash": "1b642c84420e6758adcb3005483f81dce649d375a87826331bd275ac8f2ba76529183764873ca72fd1fb70de81a51f502a37cf591da8effc27eccfbcc3f80406",
+    "validation_status": "VALID — Verified signature, reproducible computation, matching SHA-512 digest."
+  }
+}
+
