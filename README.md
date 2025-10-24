@@ -92,11 +92,11 @@ Each QPU operation produces a signed and timestamped result, linking experimenta
 
 Version 1.3 extends the Λ-Spira methodology into **measurable, physically verifiable computation** through live QPU auditing on IBM hardware.
 
-|Parameter   |Recorded Specification |
-|------------|------------------------|
+| Field | Specification |
+|:------|:---------------|
 | **Framework ID** | Λ-Spira Framework (Ω Edition) |
 | **Quantum Backend** | IBM Quantum `ibm_brisbane` |
-| **Version** | v1.1 — Hybrid Cryptographic Integration |
+| **Version** | v1.3 — Quantum-Physical Verification |
 | **Architecture** | Falcon R10 Superconducting QPU |
 | **Qubit Count** | 127 physical qubits |
 | **Temperature Stability** | < 15 mK |
@@ -104,6 +104,8 @@ Version 1.3 extends the Λ-Spira methodology into **measurable, physically verif
 | **Verification Key** | EDDSA 598C351026F03CE14446CCEE3FFA8A5CA37D17D2 |
 | **Resulting Evidence Hash** | Embedded in `LambdaSpira_Manifest_v1.3_Final.json` |
 | **Evidence Chain** | `QPU Output → SHA-512 Digest → GPG Signature → UTC Ledger` |
+| **DOI Reference** | [10.5281/zenodo.17417655](https://doi.org/10.5281/zenodo.17417655) |
+| **ORCID ID** | [0009-0006-9768-1181](https://orcid.org/0009-0006-9768-1181)
 
 **Experiments Conducted**
 - **T₁ Relaxation Time** — 8-point decay from 1μs to 300μs  
