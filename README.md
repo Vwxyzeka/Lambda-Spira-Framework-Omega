@@ -114,12 +114,11 @@ Version 1.3 extends the Λ-Spira methodology into **measurable, physically verif
 
 All QPU results are hashed and cryptographically signed to maintain **mathematical equivalence between experimental observation and digital record**.
 
-**Immutable Ledger Entries**
-- `Λ-Spira_Ledger_Entry_Ω_20251024.txt`  
-- `Λ-Spira_Ledger_Entry_Ω_20251024.txt.sig`  
-- `LambdaSpira_Manifest_v1.3_Final.json`  
+**Immutable Ledger Evidence**
+All verified outputs, signatures, and manifest records are securely stored within the Λ-Spira archival subsystem under cryptographic seal.  
+Each record is referenced by its SHA-512 digest and UTC timestamp, ensuring full reproducibility without exposing proprietary attestation data.
 
-Each resulting artifact (JSON outputs, manifest, signatures, ledgers) is independently reproducible and validated cryptographically, temporally, and physically.
+Each resulting artifact is independently verifiable — maintaining a complete **Quantum-to-Classical Provenance Chain**, validated cryptographically, temporally, and physically.
 
 ---
 
