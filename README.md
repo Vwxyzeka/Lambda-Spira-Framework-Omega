@@ -11,7 +11,8 @@
 
 [![status](https://img.shields.io/badge/status-verified-success?style=for-the-badge&labelColor=202020)]()  
 [![license](https://img.shields.io/badge/license-Λ--Spira--Research--and--Verification--License--Ω--2025-lightgrey?style=for-the-badge&labelColor=202020)](./LICENSE)  
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17417655-blue?style=for-the-badge&labelColor=202020)](https://doi.org/10.5281/zenodo.17417655)  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17417655-blue?style=for-the-badge&labelColor=202020)](https://doi.org/10.5281/zenodo.17417655)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17443312-blue?style=for-the-badge&labelColor=202020)](https://doi.org/10.5281/zenodo.17443312)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--9768--1181-green?style=for-the-badge&labelColor=202020)](https://orcid.org/0009-0006-9768-1181)  
 [![Integrity](https://img.shields.io/badge/integrity-GPG%20signed-blue?style=for-the-badge&labelColor=202020)]()  
 
