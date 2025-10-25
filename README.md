@@ -104,7 +104,9 @@ Version 1.3 extends the Λ-Spira methodology into **measurable, physically verif
 | **Verification Key** | EDDSA 598C351026F03CE14446CCEE3FFA8A5CA37D17D2 |
 | **Resulting Evidence Hash** | Embedded in `LambdaSpira_Manifest_v1.3_Final.json` |
 | **Evidence Chain** | `QPU Output → SHA-512 Digest → GPG Digital Signature → UTC Temporal Ledger → Immutable Archival Lock` |
-| **DOI Reference** | [10.5281/zenodo.17417655](https://doi.org/10.5281/zenodo.17417655) |
+| **Author** | Sheka Hamdani Saputra (Independent Researcher, Λ-Spira Superlab Framework, Indonesia) |
+| **Publication UTC** | 2025-10-25T01:00:00Z |
+| **DOI Reference** | [10.5281/zenodo.17443312](https://doi.org/10.5281/zenodo.17443312) |
 | **ORCID ID** | [0009-0006-9768-1181](https://orcid.org/0009-0006-9768-1181)
 
 **Experiments Conducted**
@@ -170,7 +172,8 @@ Key technical attributes:
 > Saputra, S. H. (2025). *Λ-Spira Framework (Ω Edition):  
 > A Cryptographic Provenance Standard for Verifiable Computation.*  
 > Λ-Spira Research Monograph Series, v1.3 (Quantum Hybrid Verification).  
-> DOI: [10.5281/zenodo.17417655](https://doi.org/10.5281/zenodo.17417655).  
+> Concept DOI (All Versions): DOI: [10.5281/zenodo.17417655](https://doi.org/10.5281/zenodo.17417655).
+> Version DOI (v1.3-Ω-UNIFIED): DOI: [10.5281/zenodo.17443312](https://doi.org/10.5281/zenodo.17443312).  
 > ORCID: [0009-0006-9768-1181](https://orcid.org/0009-0006-9768-1181).  
 
 ---
@@ -186,6 +189,7 @@ see [LICENSE](./LICENSE) for full legal and verification terms.
 
 **Official Contact Channels:**  
 - GitHub    : [Vwxyzeka](https://github.com/Vwxyzeka)  
-- Zenodo    : [10.5281/zenodo.17417655](https://doi.org/10.5281/zenodo.17417655)  
+- Zenodo    : [10.5281/zenodo.17417655](https://doi.org/10.5281/zenodo.17417655)
+            : [10.5281/zenodo.17443312](https://doi.org/10.5281/zenodo.17443312)
 - ORCID     : [0009-0006-9768-1181](https://orcid.org/0009-0006-9768-1181)  
 - Twitter   : [@ShekaHamdani](https://twitter.com/ShekaHamdani)  
