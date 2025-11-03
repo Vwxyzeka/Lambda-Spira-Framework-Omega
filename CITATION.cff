@@ -26,6 +26,10 @@ keywords:
   - Reproducible Computation
   - FAIR+++ Omega Tier
   - Lambda-Spira Integrity Protocol
+relations:
+  - type: is-new-version-of
+    target: "10.5281/zenodo.17417655"
+    description: "This release supersedes Lambda-Spira Framework (Omega-1.0) published under DOI 10.5281/zenodo.17417655."
 preferred-citation:
   type: article
   authors:
