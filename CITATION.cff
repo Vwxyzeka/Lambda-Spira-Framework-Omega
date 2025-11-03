@@ -1,34 +1,73 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+type: software
+message: "If you use this software, please cite it as below. This citation entry follows global FAIR, DataCite, ISO 23494-3, and JOSS high-tier scientific metadata standards."
 title: "Lambda-Spira Framework (Omega Unified Scientific Edition): Quantum-Physical Unified Verification v1.3-Omega-UNIFIED"
-abstract: >
+abstract: 
   Lambda-Spira Framework (Omega Unified Scientific Edition) v1.3-Omega-UNIFIED establishes a verified, cryptographically-audited
   provenance standard for reproducible computation. Executed under the Lambda-Spira Integrity Protocol (LS-Omega-20251024-verified),
   it integrates SHA-512 hashing, GPG (EDDSA) signatures, UTC ledgering, and quantum QPU audit evidence across hybrid systems.
-  The release complies with FAIR+++ Omega Tier, ISO/IEC 23494-3:2023 (Data Provenance Interoperability),
-  and DataCite Metadata Schema v4.5 for machine-readable reproducibility.
+  The release complies with FAIR +++ Omega Tier, ISO/IEC 23494-3:2023 (Data Provenance Interoperability),
+  and DataCite Metadata Schema v4.5 for machine-readable scientific reproducibility.
 authors:
   - family-names: Saputra
     given-names: Sheka Hamdani
     orcid: https://orcid.org/0009-0006-9768-1181
-    affiliation: Lambda-Spira Superlab Framework - Independent Research Node, Indonesia
+    affiliation: Lambda-Spira Superlab Framework — Independent Research Node, Indonesia
+    role: Principal Investigator / Architect / Author
 version: Omega-1.3-UNIFIED
 date-released: 2025-11-02
 repository-code: https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega
 doi: 10.5281/zenodo.17443312
-license: MIT
+license: Other
+license-name: Lambda-Spira Research and Verification License (Omega-2025)
+license-url: https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega/blob/main/LICENSE
+custom-license-text: 
+  Lambda-Spira Research and Verification License (Omega-2025)
+  Copyright (C) 2025 Sheka Hamdani Saputra
+  All rights reserved.
+  Redistribution and verification logs must retain cryptographic provenance headers.
+  This license permits public verification, academic citation, and integrity auditing,
+  but prohibits derivative redistribution that removes provenance metadata.
+  For full terms, see LICENSE in the repository.
 keywords:
   - Quantum Verification
   - Cryptographic Provenance
   - Reproducible Computation
-  - FAIR+++ Omega Tier
+  - FAIR +++ Omega Tier
   - Lambda-Spira Integrity Protocol
+publisher: Lambda-Spira Superlab Framework — Independent Research Node, Indonesia
+contact:
+  email: Vwxyz0210@gmail.com
+  url: https://orcid.org/0009-0006-9768-1181
+repository-artifact: https://doi.org/10.5281/zenodo.17443312
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.17443312
+  - type: url
+    value: https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega
+relations:
+  - type: is-new-version-of
+    target: 10.5281/zenodo.17417655
+  - type: is-documented-by
+    target: https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega/blob/main/docs/whitepaper_v1.3/WHITEPAPER_LAMBDA_SPIRA_v1.3_20251025_UNIFIED.pdf
+  - type: is-supplemented-by
+    target: https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega/releases/tag/v1.3-Omega-UNIFIED
+references:
+  - type: standard
+    title: ISO/IEC 23494-3:2023 — Data Provenance Interoperability
+    doi: 10.3403/30419261
+  - type: software
+    title: GNU Privacy Guard 2.4.3 — OpenPGP Digital Signature Suite
+    url: https://gnupg.org
+  - type: software
+    title: IBM Quantum Backend 'ibm_brisbane' (Falcon R10, 127 Qubits)
+    url: https://quantum.ibm.com
 preferred-citation:
   type: article
   authors:
     - family-names: Saputra
       given-names: Sheka Hamdani
-  title: "Lambda-Spira Framework (Omega Edition): Quantum-Physical Unified Verification (v1.3-Omega-UNIFIED)"
+  title: Lambda-Spira Framework (Omega Edition): Quantum-Physical Unified Verification (v1.3-Omega-UNIFIED)
   journal: Zenodo Software Archive
   year: 2025
   version: Omega-1.3-UNIFIED
