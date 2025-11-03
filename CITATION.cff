@@ -18,12 +18,10 @@ version: "Omega-1.3-UNIFIED"
 date-released: "2025-11-02"
 repository-code: "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega"
 doi: "10.5281/zenodo.17443312"
-
 license: "Other"
 license-name: "Lambda-Spira Research and Verification License (Omega-2025)"
 license-url: "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega/blob/main/LICENSE"
-
-x-custom-license-text: |
+custom-license-text: |
   Lambda-Spira Research and Verification License (Omega-2025)
   Copyright (C) 2025 Sheka Hamdani Saputra
   All rights reserved.
@@ -31,27 +29,22 @@ x-custom-license-text: |
   This license permits public verification, academic citation, and integrity auditing,
   but prohibits derivative redistribution that removes provenance metadata.
   For full terms, see LICENSE in the repository.
-
 keywords:
   - Quantum Verification
   - Cryptographic Provenance
   - Reproducible Computation
   - FAIR +++ Omega Tier
   - Lambda-Spira Integrity Protocol
-
 publisher: "Lambda-Spira Superlab Framework — Independent Research Node, Indonesia"
 contact:
   email: "Vwxyz0210@gmail.com"
   url: "https://orcid.org/0009-0006-9768-1181"
-
 repository-artifact: "https://doi.org/10.5281/zenodo.17443312"
-
 identifiers:
   - type: doi
     value: "10.5281/zenodo.17443312"
   - type: url
     value: "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega"
-
 relations:
   - type: is-new-version-of
     target: "10.5281/zenodo.17417655"
@@ -59,7 +52,6 @@ relations:
     target: "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega/blob/main/docs/whitepaper_v1.3/WHITEPAPER_LAMBDA_SPIRA_v1.3_20251025_UNIFIED.pdf"
   - type: is-supplemented-by
     target: "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega/releases/tag/v1.3-Omega-UNIFIED"
-
 references:
   - type: standard
     title: "ISO/IEC 23494-3:2023 — Data Provenance Interoperability"
@@ -70,7 +62,6 @@ references:
   - type: software
     title: "IBM Quantum Backend 'ibm_brisbane' (Falcon R10, 127 Qubits)"
     url: "https://quantum.ibm.com"
-
 preferred-citation:
   type: article
   authors:
