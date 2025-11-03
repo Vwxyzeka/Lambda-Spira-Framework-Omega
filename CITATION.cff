@@ -27,35 +27,6 @@ keywords:
   - Lambda-Spira Integrity Protocol
 preferred-citation:
   type: article
-  publisher: Lambda-Spira Superlab Framework — Independent Research Node, Indonesia
-contact:
-  email: Vwxyz0210@gmail.com
-  url: https://orcid.org/0009-0006-9768-1181
-repository-artifact: https://doi.org/10.5281/zenodo.17443312
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.17443312
-  - type: url
-    value: https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega
-relations:
-  - type: is-new-version-of
-    target: 10.5281/zenodo.17417655
-  - type: is-documented-by
-    target: https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega/blob/main/docs/whitepaper_v1.3/WHITEPAPER_LAMBDA_SPIRA_v1.3_20251025_UNIFIED.pdf
-  - type: is-supplemented-by
-    target: https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega/releases/tag/v1.3-Omega-UNIFIED
-references:
-  - type: standard
-    title: ISO/IEC 23494-3:2023 — Data Provenance Interoperability
-    doi: 10.3403/30419261
-  - type: software
-    title: GNU Privacy Guard 2.4.3 — OpenPGP Digital Signature Suite
-    url: https://gnupg.org
-  - type: software
-    title: IBM Quantum Backend 'ibm_brisbane' (Falcon R10, 127 Qubits)
-    url: https://quantum.ibm.com
-preferred-citation:
-  type: article
   authors:
     - family-names: Saputra
       given-names: Sheka Hamdani
