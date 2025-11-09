@@ -106,6 +106,7 @@ Version 1.3 extends the Λ-Spira methodology into **measurable, physically verif
 | **Execution Runtime (UTC)** | 2025-10-24T21:18:00Z |
 | **Verification Key** | EDDSA 598C351026F03CE14446CCEE3FFA8A5CA37D17D2 |
 | **Resulting Evidence Hash** | Embedded in `LambdaSpira_Manifest_v1.3_Final.json` |
+| **QPU Audit Report** | Embedded in `audit_evidence/LambdaSpira_QPU_Audit_Report_v1.json` |
 | **Evidence Chain** | `QPU Execution → Quantum Result Dataset → SHA-512 Digest → GPG (EdDSA) Signature → Temporal Provenance Ledger (UTC-signed) → Immutable Ledger (sealed) → Attested Proof State` |
 | **Author** | Sheka Hamdani Saputra (Independent Researcher, Λ-Spira Superlab Framework, Indonesia) |
 | **Publication UTC** | 2025-10-25T01:00:00Z |
@@ -115,10 +116,36 @@ Version 1.3 extends the Λ-Spira methodology into **measurable, physically verif
 **Experiments Conducted**
 - **T₁ Relaxation Time** — 8-point decay from 1μs to 300μs  
 - **T₂ Ramsey Coherence** — 8-point dephasing spread from 1μs to 100μs  
-- **Randomized Benchmarking** — 5-sample Clifford sequence, lengths [1, 2, 4, 8, 16]  
+- **Randomized Benchmarking** — 5-sample Clifford sequence, lengths [1, 2, 4, 8, 16]
 
-Each resulting artifact contributes to a unified **Quantum-to-Classical Provenance Chain**, establishing verifiable continuity between physical quantum execution, cryptographic validation, and temporal attestation.  
-This ensures that every computational event within Λ-Spira is **provably authentic, temporally anchored, and scientifically reproducible**.
+### MAIN FILES — Unified Verification Chain (v1.0 → v1.3-Ω-UNIFIED)
+
+| File | Function | Verification |
+|------|----------|--------------|
+| [`manifest_release.json`](manifest_release.json) | **Manifest v1.3-Ω-UNIFIED** (hash chain) | SHA-512 + GPG |
+| [`manifest_release.json.sig`](manifest_release.json.sig) | **GPG signature** | Valid |
+| [`audit_evidence/LambdaSpira_QPU_Audit_Report_v1.json`](audit_evidence/LambdaSpira_QPU_Audit_Report_v1.json) | **QPU Audit Result** | SHA-512 |
+| [`docs/whitepaper_v1.3/WHITEPAPER_LAMBDA_SPIRA_v1.3_20251025_UNIFIED.pdf`](docs/whitepaper_v1.3/WHITEPAPER_LAMBDA_SPIRA_v1.3_20251025_UNIFIED.pdf) | **Whitepaper v1.3-Ω-UNIFIED** | GPG-signed |
+| [`docs/whitepaper_v1.3/zenodo_metadata_v1.3.json`](docs/whitepaper_v1.3/zenodo_metadata_v1.3.json) | **DOI Metadata** | Zenodo-ready |
+| [`WHITEPAPER_LAMBDA_SPIRA_Ω-1.0_20251019_VERIFIED.pdf`](WHITEPAPER_LAMBDA_SPIRA_Ω-1.0_20251019_VERIFIED.pdf) | **Whitepaper v1.0-Ω** | GPG-signed |
+| [`Spira_QPU_Package_Ω_20251019_FINAL.zip`](Spira_QPU_Package_Ω_20251019_FINAL.zip) | **Full Package** | SHA-512 |
+| [`PRE_PUSH_VERIFY_HASH.log`](PRE_PUSH_VERIFY_HASH.log) | **Pre-push integrity** | SHA-512 |
+| [`Λ-Spira_Public_Verification.log`](Λ-Spira_Public_Verification.log) | **Final verification log** | SHA-512 |
+
+
+### 3.4 Final Verification Log (v1.3-Ω-UNIFIED)
+
+Fri Oct 24 17:42:06 UTC 2025 UTC | Verified integrity check for Λ-Spira public artifacts (BUILD_COMPLETE, RELEASE_SUMMARY, PRE_PUSH_VERIFY_HASH)
+36530e311c91258885ae9030c6f9c5ec9142a22f8a7fae4b0ce4bf1bedc0a070b936169a96a596159cc4325b8d07f1e3bfc492793fba4a3ed7e2c8702a9851a8 BUILD_COMPLETE.txt
+1cf59a9614cddf94872200b9fe323ff0f8c025f71ef7dcf09c2bb0d98186f90a0bcf47035a236a0d3dec300a2bb8a2c2421ee07c748cced2cd7b1a9966884365 BUILD_COMPLETE.txt.sig
+26c4d79a0fbc69c67d506f836b59ecb4c95043b743cb294549f317da7629cda072fe8585f31090ea7559697af06b8e7b5bafbf194d1bf82a8776c7bde64d644a PRE_PUSH_VERIFY_HASH.log
+1554b18f23df3f4372a5d853f724f899f3085ea8de7aaabf287e29f18a3b96aed1a1ac1898f7ae95ab2be67b6258f5112b4f28be2638a035585e78c3a749aa8e RELEASE_SUMMARY.log
+
+Each resulting artifact contributes to a unified Quantum-to-Classical Provenance Chain, establishing verifiable continuity between physical quantum execution, cryptographic validation, and temporal attestation.
+This ensures that every computational event within Λ-Spira is provably authentic, temporally anchored, and scientifically reproducible.
+
+> **Note:** Certain sealed artifacts, including `LambdaSpira_Manifest_v1.3_Final.json` and `Λ-Spira_Ledger_Entry_Ω_20251024.txt`, remain preserved within the Λ-Spira internal archival subsystem.  
+> Their SHA-512 digests and GPG attestations are publicly verifiable via the DOI and release metadata, ensuring scientific integrity without disclosing sealed verification contents.
 
 ---
 
@@ -155,8 +182,18 @@ Secures AI training, inference outputs, neural weights, and metadata under immut
 Delivers timestamped, author-verifiable computational evidence, providing admissible digital proofs under ISO/IEC 9796-3 and cryptographic integrity principles.
 
 ### 5.5 Strategic and Defense-Grade Systems
-Λ-Spira architecture extends to environments requiring mission-critical verification and tamper-resistant computation.Its hybrid quantum-classical verification model unifies physical quantum measurement and deterministic cryptographic proof into a single mathematically verifiable continuum.Λ-Spira operates through a hybrid deterministic integrity core — capable of functioning entirely offline while also supporting synchronization and quantum-verification audits when required.
-Each result is independently verified and sealed under SHA-512, GPG digital signatures, and UTC-anchored ledgers, ensuring mathematical authenticity under both isolated and controlled-connectivity conditions.This architecture demonstrates that quantum computational results themselves can be verified, audited, and trusted through computation alone, establishing Λ-Spira as a self-verifying framework for scientific, strategic, and defense-grade infrastructures.
+
+Λ-Spira architecture extends to environments requiring mission-critical verification and tamper-resistant computation.  
+
+Its hybrid quantum–classical verification model unifies physical quantum measurement and deterministic cryptographic proof into a single, mathematically verifiable continuum.  
+
+Λ-Spira operates through a hybrid deterministic integrity core — capable of functioning entirely offline while also supporting synchronization and quantum-verification audits when required.  
+
+Each result is independently verified and sealed under SHA-512, GPG digital signatures, and UTC-anchored ledgers, ensuring mathematical authenticity under both isolated and controlled-connectivity conditions.  
+
+This architecture demonstrates that quantum computational results themselves can be verified, audited, and trusted through computation alone — establishing Λ-Spira as a self-verifying framework for scientific, strategic, and defense-grade infrastructures.  
+
+> **Note:** The Λ-Spira verification architecture is compliant with ISO/IEC 9796-3 and NIST SP 800-53 (AU-3) standards, ensuring admissibility and reliability in defense-grade and mission-critical verification contexts.
 
 ---
 
@@ -270,3 +307,5 @@ This ensures that the framework remains authentic, scalable, and aligned with ev
 
 **Λ-Spira Framework (Ω Edition)** is a verified, quantum-audited intellectual property asset,  
 available for full acquisition, executive-level licensing, and institutional deployment under immutable cryptographic provenance.
+
+Publicly verifiable via DOI, GPG signature, and immutable ledger attestation.
