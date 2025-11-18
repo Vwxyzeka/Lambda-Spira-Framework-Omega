@@ -12,7 +12,12 @@
       "identifier": "https://orcid.org/0009-0006-9768-1181"
     }
   ],
-  "license": "MIT",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Λ-Spira Research and Verification License (Ω-2025)",
+    "url": "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega/blob/main/LICENSE",
+    "description": "Custom proprietary license. Non-commercial research and verification use permitted with attribution and integrity chain preservation. All commercial use, redistribution, derivative works, and enterprise integration require explicit written agreement."
+  },
   "datePublished": "2025-10-22",
   "codeRepository": "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega",
   "description": "Λ-Spira Framework (Ω Edition) is an advanced cryptographic provenance framework for computational verification, bridging quantum and classical computing systems using cryptographic methods (SHA-512, GPG) and quantum audit data (IBM Quantum). It ensures traceability, immutability, and reproducibility of all computational processes.",
@@ -31,7 +36,6 @@
   "upload_type": "publication",
   "publication_type": "report",
   "access_right": "open",
-  "license": "MIT",
   "doi": "10.5281/zenodo.17417655",
   "language": "eng",
   "related_identifiers": [
@@ -103,4 +107,3 @@
     "audit_log": "Verified by GPG and SHA-512 re-hashing across multiple independent systems"
   }
 }
-
