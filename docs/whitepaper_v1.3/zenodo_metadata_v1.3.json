@@ -13,7 +13,18 @@
   "validation_status": "Quantum-Audited • Cryptographically Immutable • FAIR+++Ω Tier",
   "interoperability_level": "FAIR+++Ω (Cross-OAI Interoperable, ISO 23494-3 Compliant)",
   "description": "Λ-Spira Framework (Ω Unified Scientific Edition) v1.3-Ω-UNIFIED establishes the world’s first unified standard for provable computation verified across quantum and cryptographic domains. Executed on IBM Quantum ibm_brisbane (Falcon R10, 127 qubits), it combines SHA-512 hashing, GPG (EDDSA) signatures, UTC-anchored ledgers, and quantum QPU audit evidence under the Λ-Spira Integrity Protocol (ΛS-Ω-20251024-verified). The resulting framework is immutable, reproducible, and compliant with FAIR + WDS + ISO standards for computational truth.",
-  "license": "MIT",
+  "license": {
+    "@type": "CreativeWork",
+    "name": "Λ-Spira Research and Verification License (Ω-2025)",
+    "url": "https://github.com/Vwxyzeka/Lambda-Spira-Framework-Omega/blob/main/LICENSE",
+    "description": "Custom proprietary license. Non-commercial research and verification use permitted with attribution and integrity chain preservation. All commercial use, redistribution, derivative works, and enterprise integration require explicit written agreement."
+  },
+  "copyrightHolder": {
+    "@type": "Person",
+    "name": "Sheka Hamdani Saputra",
+    "orcid": "https://orcid.org/0009-0006-9768-1181"
+  },
+  "conditionsOfAccess": "Research use: Open with attribution. Commercial use: Restricted – contact via GitHub Issues for licensing.",
   "inLanguage": "en",
   "creator": {
     "@type": "Person",
